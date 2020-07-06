@@ -3,6 +3,7 @@ package easy;
 import java.util.HashMap;
 
 public class Solution1 {
+    // brute force
 //    public int[] twoSum(int[] nums, int target) {
 //        int[] result = new int[2];
 //        outer: for (int i=0; i<nums.length; i++){
@@ -19,6 +20,7 @@ public class Solution1 {
 //        return result;
 //    }
 
+    // hash map
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         HashMap<Integer, Integer> map = new HashMap<>();
